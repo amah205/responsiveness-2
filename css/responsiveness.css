@@ -1,0 +1,134 @@
+
+@media (max-width:500px){
+    .navbar{
+        height:100px ;
+        
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+    
+    .navbar ul{
+        background-color: rgba(0,0,0 , 0.2);
+        padding: 10px;
+    }
+
+    .grid,
+    .showcase .grid,
+    .cli .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    .cloud .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }    
+    .grid-3
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+        gap: 0px;
+    }
+
+    .stats .grid-3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    /*showcase-section*/
+    .showcase{
+        height: auto;
+    }
+
+    .showcase-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .showcase-form{
+        justify-self: center;
+        transform: translateY(-20%);
+    
+    }
+
+    .showcase .grid{
+        gap: 0px;
+    }
+
+    .stats{
+        transform: translateY(20%);
+        height: auto;
+    }
+
+    .mobile{
+        transform: translateY(-6%);
+    }
+
+    .cli{
+        transform: translateY(40%);
+    }
+
+    .cli img{
+        transform: translateX(-10%);
+        width: 400px;
+    
+    }
+
+    .cli .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .cloud {
+        transform: translateY(30%);
+    }
+
+    .cloud img{
+        background-color: rgba(0, 0, 0, 0.8);
+        background-blend-mode: overlay;
+        opacity: 0.9;
+        transform: translateY(-20%);
+    }
+
+    .languages{
+        text-align: center;
+        margin-top: 40px;
+        transform: translateY(30%);
+    }
+
+    .languages .container{
+        max-width: 90%;
+    }
+
+    .footer{
+        transform: translateY(45%);
+        background-color: var(--dark-color);
+        height: 40vh;
+    }
+
+    .footer .grid-3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+    }
+
+    .footer .social{
+        background-color: var(--dark-color);
+        align-self: flex-start;
+    }
+
+    
+    
+    
+
+}
